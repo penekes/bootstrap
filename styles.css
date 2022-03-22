@@ -1,0 +1,108 @@
+header{
+    background-color: grey;
+    text-align: center;
+}
+
+nav{
+    background-color: brown;
+    text-align: center;
+}
+
+a{
+    font-size: 1.5em;
+    color:black;
+}
+
+ a:hover{
+    color:rgb(146, 60, 60);
+    
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.gymname{
+    text-align: end;
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+    font-size: 2em;    
+}
+
+h2{
+    color: black;
+    padding-left: 40px;
+}
+
+h4{
+    padding-top: 50px;
+}
+
+main{
+    background-color:black;
+}
+
+ul{
+
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+li{
+    color: honeydew;    
+}
+
+li:hover{
+    color:black;
+    background-color: rgb(155, 153, 153);
+}
+
+.consejos{
+    font-size: 30px;
+    font-style: italic;
+    background-color: grey;
+}
+
+.imagenes{
+    color: black;
+}
+
+.imagenes:hover{
+    color: rgb(185, 57, 57);
+}
+
+.contacto{
+    
+    font-size:1em;
+}
+
+.video{
+    font-size: 25px;
+    color:blue;
+}
+
+.video:hover{
+    color:rgb(184, 32, 32);
+}
+
+footer{
+    color: blue;
+}
+
+.telefono{
+    font-size: 30px;
+}
+
+
+
+

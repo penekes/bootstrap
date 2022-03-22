@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Proyecto Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Course CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  form{
+    margin: 2%;
+  }
+  h1{
+    font-family: 'Arial Narrow Bold';
+  }
+  button:hover{
+    color: brown;
+  }
+ .h3{
+  margin-right: 20px;
+ }
+</style>
+<body>
+    <!-- Formulario para solicitar información-->
+    <div class="row">
+        <h1 class="bg-secondary col-12 text-center">CONTACTO</h1>
+  
+        <div class="row">
+  
+          <form class="col-11 || col-md-11 || col-lg-5">
+            <div class="form-group ml-3 mr-3">
+              <label for="formGroupExampleInput">Nombre</label>
+              <input type="text" class="form-control" id="nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>
+              <i class="fa fa-check check-ok"></i>
+            </div>
+            <div class="form-group  ml-3 mr-3">
+              <label for="formGroupExampleInput2">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required/>
+              <i class="fa fa-check check-ok"></i>
+            </div>
+            <div class="form-group ml-3 mr-3">
+              <label for="formGroupExampleInput3">Email</label>
+              <input type="email" class="form-control" id="correo" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required/>
+              <i class="fa fa-check check-ok"></i>
+              </div>
+            <div class="form-group ml-3 mr-3">
+              <label for="formGroupExampleInput2">Descripcion</label>
+              <textarea type="text" class="form-control" id="descripcion" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-success float-right mb-5 mr-3">Enviar</button>
+          </form>
+  
+          <div class="col-md-6 || col-lg-6">
+            <article class="row">
+              <h3 class="bg-secondary text-white col-12 pl-5 pb-md-3">Contacta con nosotros</h3>
+                <p class="  pl-5  pr-5 ml-3 mr-4"><em><strong>Ayudamos a todo tipo de personas</strong></em> a conseguir objetivos no solo físicos sino de salud.
+                     No importa la disciplina practiques el <em><strong>"Ejercicio físico"</strong></em> no solo mejora nuestra apariencia, si no también nuestra salud.
+                      El secreto es la <em><strong>"Constancia"</strong></em>.
+                    Prueba <em><strong>GRATIS</strong></em> dos semanas, no te arrepentirás.
+                    </p>
+            </article>
+          </div>
+  
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
