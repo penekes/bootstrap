@@ -92,7 +92,12 @@ li:hover{
 
 footer{
     color: blue;
+    transition: transform .1s;
 }
+footer:hover{
+    transform: scale(1.1)
+}
+
 
 .telefono{
     font-size: 30px;
